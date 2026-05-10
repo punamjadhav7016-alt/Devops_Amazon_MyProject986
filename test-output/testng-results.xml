@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-10T22:16:39 IST" name="Suite" finished-at="2026-05-10T22:17:16 IST" duration-ms="37601">
+  <suite started-at="2026-05-10T22:30:52 IST" name="Suite" finished-at="2026-05-10T22:31:27 IST" duration-ms="35102">
     <groups>
     </groups>
-    <test started-at="2026-05-10T22:16:39 IST" name="AmazonChrome" finished-at="2026-05-10T22:16:52 IST" duration-ms="12932">
+    <test started-at="2026-05-10T22:30:52 IST" name="AmazonChrome" finished-at="2026-05-10T22:31:06 IST" duration-ms="13923">
       <class name="docker_Amazon.AmazonSiteTest">
-        <test-method signature="CrossBrowserTestforAmazonApplication(java.lang.String)[pri:0, instance:docker_Amazon.AmazonSiteTest@7cc0cdad]" started-at="2026-05-10T22:16:39 IST" name="CrossBrowserTestforAmazonApplication" finished-at="2026-05-10T22:16:52 IST" duration-ms="12887" status="PASS">
+        <test-method signature="CrossBrowserTestforAmazonApplication(java.lang.String)[pri:0, instance:docker_Amazon.AmazonSiteTest@65e61854]" started-at="2026-05-10T22:30:52 IST" name="CrossBrowserTestforAmazonApplication" finished-at="2026-05-10T22:31:06 IST" duration-ms="13834" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -20,9 +20,9 @@
         </test-method> <!-- CrossBrowserTestforAmazonApplication -->
       </class> <!-- docker_Amazon.AmazonSiteTest -->
     </test> <!-- AmazonChrome -->
-    <test started-at="2026-05-10T22:16:39 IST" name="AmazonFire" finished-at="2026-05-10T22:16:54 IST" duration-ms="15745">
+    <test started-at="2026-05-10T22:30:52 IST" name="AmazonFire" finished-at="2026-05-10T22:31:08 IST" duration-ms="16477">
       <class name="docker_Amazon.AmazonSiteTest">
-        <test-method signature="CrossBrowserTestforAmazonApplication(java.lang.String)[pri:0, instance:docker_Amazon.AmazonSiteTest@7eac9008]" started-at="2026-05-10T22:16:39 IST" name="CrossBrowserTestforAmazonApplication" finished-at="2026-05-10T22:16:54 IST" duration-ms="15707" status="PASS">
+        <test-method signature="CrossBrowserTestforAmazonApplication(java.lang.String)[pri:0, instance:docker_Amazon.AmazonSiteTest@3a4b0e5d]" started-at="2026-05-10T22:30:52 IST" name="CrossBrowserTestforAmazonApplication" finished-at="2026-05-10T22:31:08 IST" duration-ms="16390" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,9 +35,9 @@
         </test-method> <!-- CrossBrowserTestforAmazonApplication -->
       </class> <!-- docker_Amazon.AmazonSiteTest -->
     </test> <!-- AmazonFire -->
-    <test started-at="2026-05-10T22:16:39 IST" name="AmazonEdge" finished-at="2026-05-10T22:17:16 IST" duration-ms="37600">
+    <test started-at="2026-05-10T22:30:52 IST" name="AmazonEdge" finished-at="2026-05-10T22:31:27 IST" duration-ms="35102">
       <class name="docker_Amazon.AmazonSiteTest">
-        <test-method signature="CrossBrowserTestforAmazonApplication(java.lang.String)[pri:0, instance:docker_Amazon.AmazonSiteTest@3cd3e762]" started-at="2026-05-10T22:16:39 IST" name="CrossBrowserTestforAmazonApplication" finished-at="2026-05-10T22:17:16 IST" duration-ms="37555" status="FAIL">
+        <test-method signature="CrossBrowserTestforAmazonApplication(java.lang.String)[pri:0, instance:docker_Amazon.AmazonSiteTest@5aceec94]" started-at="2026-05-10T22:30:52 IST" name="CrossBrowserTestforAmazonApplication" finished-at="2026-05-10T22:31:27 IST" duration-ms="35018" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -52,9 +52,9 @@
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [bff1727d49d93a9cfbc151c3f0f61d9d, getTitle {}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 147.0.3912.60, fedcm:accounts: true, goog:processID: 9663, ms:edgeOptions: {debuggerAddress: localhost:45261}, msedge: {msedgedriverVersion: 147.0.3912.60 (edc5c90193d3..., userDataDir: /tmp/com.microsoft.Edge.sco...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.20.0.4:4444/sessio..., se:cdpVersion: 147.0.3912.60, se:containerName: 3e925bde5e56, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.20.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.20.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bff1727d49d93a9cfbc151c3f0f61d9d]]>
+Command: [fe4b125a690b81bef55d22c78bb74dba, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 147.0.3912.60, fedcm:accounts: true, goog:processID: 10167, ms:edgeOptions: {debuggerAddress: localhost:38203}, msedge: {msedgedriverVersion: 147.0.3912.60 (edc5c90193d3..., userDataDir: /tmp/com.microsoft.Edge.sco...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.20.0.4:4444/sessio..., se:cdpVersion: 147.0.3912.60, se:containerName: 3e925bde5e56, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.20.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.20.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fe4b125a690b81bef55d22c78bb74dba]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: tab crashed
@@ -62,9 +62,9 @@ Session ID: bff1727d49d93a9cfbc151c3f0f61d9d]]>
 Build info: version: '4.43.0', revision: 'dd0f534'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [bff1727d49d93a9cfbc151c3f0f61d9d, getTitle {}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 147.0.3912.60, fedcm:accounts: true, goog:processID: 9663, ms:edgeOptions: {debuggerAddress: localhost:45261}, msedge: {msedgedriverVersion: 147.0.3912.60 (edc5c90193d3..., userDataDir: /tmp/com.microsoft.Edge.sco...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.20.0.4:4444/sessio..., se:cdpVersion: 147.0.3912.60, se:containerName: 3e925bde5e56, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.20.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.20.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: bff1727d49d93a9cfbc151c3f0f61d9d
+Command: [fe4b125a690b81bef55d22c78bb74dba, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 147.0.3912.60, fedcm:accounts: true, goog:processID: 10167, ms:edgeOptions: {debuggerAddress: localhost:38203}, msedge: {msedgedriverVersion: 147.0.3912.60 (edc5c90193d3..., userDataDir: /tmp/com.microsoft.Edge.sco...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.20.0.4:4444/sessio..., se:cdpVersion: 147.0.3912.60, se:containerName: 3e925bde5e56, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.20.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.20.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fe4b125a690b81bef55d22c78bb74dba
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:172)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
