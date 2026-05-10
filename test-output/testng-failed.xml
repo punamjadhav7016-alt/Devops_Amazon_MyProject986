@@ -11,4 +11,14 @@
       </class> <!-- docker_Amazon.Amazon -->
     </classes>
   </test> <!-- AmazonChrome(failed) -->
+  <test thread-count="5" parallel="tests" name="AmazonEdge(failed)">
+    <parameter name="bname" value="Edge"/>
+    <classes>
+      <class name="docker_Amazon.Amazon">
+        <methods>
+          <include name="CrossBrowserTestforAmazonApplication" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- docker_Amazon.Amazon -->
+    </classes>
+  </test> <!-- AmazonEdge(failed) -->
 </suite> <!-- Failed suite [Suite] -->

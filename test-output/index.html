@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -106,6 +106,11 @@
                         <a href="#" panel-name="suite-Suite" title="docker_Amazon.Amazon" class="method navigator-link" hash-for-method="CrossBrowserTestforAmazonApplication(Chrome)">CrossBrowserTestforAmazonApplication(Chrome)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="docker_Amazon.Amazon" class="method navigator-link" hash-for-method="CrossBrowserTestforAmazonApplication(Edge)">CrossBrowserTestforAmazonApplication(Edge)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
@@ -115,11 +120,6 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="docker_Amazon.Amazon" class="method navigator-link" hash-for-method="CrossBrowserTestforAmazonApplication(Edge)">CrossBrowserTestforAmazonApplication(Edge)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="docker_Amazon.Amazon" class="method navigator-link" hash-for-method="CrossBrowserTestforAmazonApplication(Firefox)">CrossBrowserTestforAmazonApplication(Firefox)</a> <!-- method navigator-link -->
@@ -154,9 +154,42 @@
 Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [931670f4e9124b8bd76bae3a1f9e643c, getTitle {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.55, chrome: {chromedriverVersion: 147.0.7727.56 (b28eac7a1a97..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44715}, goog:processID: 7828, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.20.0.3:4444/sessio..., se:cdpVersion: 147.0.7727.55, se:containerName: 699794ef82e2, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.20.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.20.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 931670f4e9124b8bd76bae3a1f9e643c
+Command: [2399da35390d41ec427fa7df3377e94b, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.55, chrome: {chromedriverVersion: 147.0.7727.56 (b28eac7a1a97..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:44019}, goog:processID: 8274, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.20.0.3:4444/sessio..., se:cdpVersion: 147.0.7727.55, se:containerName: 699794ef82e2, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.20.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.20.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2399da35390d41ec427fa7df3377e94b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:172)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:688)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:692)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:379)
+	at docker_Amazon.Amazon.CrossBrowserTestforAmazonApplication(Amazon.java:72)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CrossBrowserTestforAmazonApplication(Edge)">
+                  </a> <!-- CrossBrowserTestforAmazonApplication(Edge) -->
+                  <span class="method-name">CrossBrowserTestforAmazonApplication</span>
+                  <span class="parameters">(Edge)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: tab crashed
+  (Session info: MicrosoftEdge=147.0.3912.60) (error code: &quot;tab crashed&quot;)
+Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.9&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [46db203c8e6830b6845a1317b6b6a5dd, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 147.0.3912.60, fedcm:accounts: true, goog:processID: 11588, ms:edgeOptions: {debuggerAddress: localhost:34833}, msedge: {msedgedriverVersion: 147.0.3912.60 (edc5c90193d3..., userDataDir: /tmp/com.microsoft.Edge.sco...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.20.0.4:4444/sessio..., se:cdpVersion: 147.0.3912.60, se:containerName: 3e925bde5e56, se:deleteSessionOnUi: true, se:downloadsEnabled: true, se:noVncPort: 7900, se:vnc: ws://172.20.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.20.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46db203c8e6830b6845a1317b6b6a5dd
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:172)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -184,14 +217,6 @@ Session ID: 931670f4e9124b8bd76bae3a1f9e643c
               <span class="class-name">docker_Amazon.Amazon</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="CrossBrowserTestforAmazonApplication(Edge)">
-                  </a> <!-- CrossBrowserTestforAmazonApplication(Edge) -->
-                  <span class="method-name">CrossBrowserTestforAmazonApplication</span>
-                  <span class="parameters">(Edge)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="CrossBrowserTestforAmazonApplication(Firefox)">
@@ -277,20 +302,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'CrossBrowserTestforAmazonApplication')
 data.setCell(0, 2, 'docker_Amazon.Amazon')
-data.setCell(0, 3, 31830);
+data.setCell(0, 3, 64908);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'CrossBrowserTestforAmazonApplication')
 data.setCell(1, 2, 'docker_Amazon.Amazon')
-data.setCell(1, 3, 14591);
+data.setCell(1, 3, 35201);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'CrossBrowserTestforAmazonApplication')
 data.setCell(2, 2, 'docker_Amazon.Amazon')
-data.setCell(2, 3, 12344);
+data.setCell(2, 3, 15445);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 31 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -324,6 +349,8 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">CrossBrowserTestforAmazonApplication(Edge)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
